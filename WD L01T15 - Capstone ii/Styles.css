@@ -1,0 +1,145 @@
+﻿#title{
+	color: maroon;
+	background-color: #808080;
+	font-family: Papyrus;
+	text-align: center;
+}
+
+.footpar{
+	color: maroon;
+	float: center;
+	font-family: "papyrus";
+	font-size: 10px;
+}
+.navbar-brand {
+    color: maroon !important;
+	font-family: Brush Script MT;
+	border-radius: 30px;
+	box-shadow: 2px 2px red;
+}
+.bg-light {
+    background-color: #B0B0B0 !important;
+}
+
+.container{
+	text-align: center;
+}
+
+.tablehead{
+	color:#b8860b;
+	font-family:Papyrus;
+	background-color:#87cefa;
+	border: 1px solid blue;
+}
+
+.tablerow{
+	color:maroon;
+	font-family:Papyrus;
+	text-align:center;
+	background-color:#87cefa;
+	border: 1px solid blue;
+	border-radius: 30px;
+}
+
+.tablerow:hover{
+	background-color: #1e90ff;
+}
+
+.img-thumbnail{
+	float:right;
+	padding; 1px;
+}
+
+#footpar{
+	float: right;
+}
+
+ul {
+	color: maroon;
+	font-family: "papyrus";
+	font-size: 11px;
+}
+
+.quickAddToCartButton{
+	color: pink;
+	background-color:navy;
+}
+
+.ikillyou{
+	width:90%;
+	border: 1px solid white;
+	padding: 1px;
+}
+
+.nobody{
+	background-color: #ffa089;
+}
+
+.evillaugh {
+	width: 55%;	
+	filter: hue-rotate(45deg);
+	border: 1px solid red;
+	padding: 1px;
+}
+
+.evilbody{
+	background-image: url("images/freshhell.jpg");
+	opacity: 60%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.evilpar{
+	color: white;
+	font-family: "lucida handwriting";
+}
+
+.brilliant{
+	border: 2px solid chartreuse;
+	padding: 1px;
+}
+
+.riing{
+	width: 100%;
+	border: 2px solid chartreuse;
+	padding: 1px;
+}
+
+.img-Sand{
+	width: 85%;
+	border: 2px solid pink;
+	padding: 1px;
+}
+
+.subtletext{
+	text-align: center;
+	color: gold;
+}
+
+.img-ig{
+	width: 85%;
+	border: 2px solid orangered;
+	padding: 1px;
+}
+.footpar-ig{
+	color: orangered;
+	background-color: blue;
+}
+
+.img-lc{
+	width: 95%;
+	border: 2px solid coral;
+	padding: 1px;
+}
+
+.img-jum{
+	width: 75%;
+	border: 2px solid navy;
+	padding: 1px;
+}
+.img-jum1{
+	float: right;
+	width: 60%;
+	border: 2px solid navy;
+	padding: 1px;
+}

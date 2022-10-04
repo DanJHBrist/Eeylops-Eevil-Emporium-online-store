@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <!--Bootstrap CSS-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta charset="utf-8" />
+    <!--My CSS Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="Styles.css">
+    <!--Page Title-->
+    <title>Eeylop's Catalogue</title>
+    
+</head>
+<body>
+    <header>
+    <h1 id="title">Eeylops' Emporium of Eeevil!</h1>
+    </header>
+
+    <!-- My navigation bar: -->
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="Home.html"> Home </a>
+        <a class="navbar-brand" href="evileverywhere.html"> Our Vision of Evil </a>
+        <a class="navbar-brand" href="Catalogue.html"> Our Products </a>
+        <a class="navbar-brand" href="no.html"> Refunds </a>
+        <a class="navbar-brand" href="mailto:eeylopsee@gmail.com"> Contact Us </a>
+        <a class="navbar-brand" href="death.html"> In Event of Non-payment </a>
+        <a class="navbar-brand" href="Shopping Cart.html"> Shopping Cart </a>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </nav>
+     <h3 style="color: chartreuse; font-family: Papyrus; background-color: tomato; border-radius:30px;">--What we offer: --</h3>
+     
+     <!--Thumbnails: image "preview" format, smaller, padding(bordering) around image.
+     Responsive image: image formatting that takes into account the size of the screen upon which it is being viewed.-->
+
+    <!--This table in grid format found at: http://donnapeplinskie.com/blog/using-tables-with-bootstrap-grids/ -->
+    <table class="table table-hover">
+        <thead>
+            <tr class="tablehead">
+                <th class="col-md-3" ><h4>Item<h4></th>
+                <th class="col-md-3"><h4>Description</h4></th>
+                <th class="col-md-3"><h4>Cost</h4></th>
+                <th class="col-md-3"><h4>Potential Side-effects (*)(**) </h4></th>
+            </tr>
+        </thead>
+        <tbody>          
+        </tbody>
+    </table>
+
+    <!-- Form: 
+    found at
+    https://www.geeksforgeeks.org/bootstrap-vertical-forms-horizontal-forms-inline-forms
+    -->
+
+    <div class="container" style="color:green">
+        <h1>Login or Sign up!</h1>
+    </div>
+    <div class="container">
+        <h4>Your details please:</h4>
+        <form action="" class="form-horizontal">
+            <div class="form-group has-success">
+                <label class="control-label col-sm-2"
+                    for="id1">Username</label>
+                <div class="col-sm-6">
+                    <input class="form-control" type="text"
+                        id="id1" placeholder="Enter your User Name">
+                </div>
+            </div>
+            <div class="form-group has-success">
+                <label class="control-label col-sm-2"
+                    for="id2">Password</label>
+                <div class="col-sm-6">
+                    <input class="form-control" type="password"
+                        id="id2" placeholder="Enter your password">
+                </div>
+            </div>
+            <div class="container">
+                <button type="button" class="btn btn-success">
+                    Login
+                </button>
+                <button type="button" class="btn btn-secondary">
+                    Register
+                </button>
+                <label>
+                    <input type="checkbox">
+                        Remember me
+                </label>
+            </div>
+        </form>
+    </div>
+    <br>
+  <footer id="foot">
+    <div class="row">
+        <div class="col-md 4">
+            <p class="footpar" id="footpar">* Includes but are not limited to:</p>
+        </div>
+        <div class="col-md 6">
+            <p class="footpar">
+        ** EEE will accept no liability in the event that any of the above-mentioned (or not) happening <br> 
+        as a result of any one or more of our product's:<ul>
+                                                            <li>use,</li>
+                                                            <li>misuse,</li>
+                                                            <li>correct use,</li>
+                                                            <li>presence,</li>
+                                                            <li>existence</li>
+                                                            <li>anything else</li>
+                                                        </ul>
+            </p>
+        </div>
+         <div class="col-md 2">
+        </div>
+    </div>
+        
+  </footer>
+  <script type="text/javascript" src="Catalogue.js"></script>
+</body>
+</html>
